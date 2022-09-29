@@ -1,0 +1,20 @@
+nome tabella: Auto Usate
+
+colonne:
+
+id                              SMALLINT                PK: AUTO_INCREMENT, UNIQUE, NOT_NULL
+marca                           VARCHAR(20)             NOT_NULL       
+modello                         VARCHAR(20)             NOT_NULL
+prezzo                          MEDIUMINT               NOT_NULL
+rata finanziamento              FLOAT(5,2)              NULL
+colore                          VARCHAR(20)             NULL
+immagine                        VARCHAR(255)            NULL         
+anno                            YEAR                    NOT_NULL
+prima immatricolazione          DATE                    NOT_NULL
+proprietari                     TINYINT                 NULL
+chilometraggio                  MEDIUMINT               NOT_NULL
+condizioni                      VARCHAR(20)             NULL
+alimentazione                   VARCHAR(20)             NOT_NULL
+cilindrata                      SMALLINT                NOT_NULL
+potenza                         SMALLINT                NOT_NULL
+consumo                         VARCHAR(10)             NULL
