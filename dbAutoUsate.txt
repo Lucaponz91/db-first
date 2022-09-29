@@ -11,6 +11,7 @@ colore                          VARCHAR(20)             NULL
 immagine                        VARCHAR(255)            NULL         
 anno                            YEAR                    NOT_NULL
 prima immatricolazione          DATE                    NOT_NULL
+nazione prima immatricolazione  VARCHAR(20)             DEFAULT(ITA)
 proprietari                     TINYINT                 NULL
 chilometraggio                  MEDIUMINT               NOT_NULL
 condizioni                      VARCHAR(20)             NULL
